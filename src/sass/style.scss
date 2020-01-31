@@ -1,0 +1,19 @@
+@import 'libs/bootstrap.min';
+
+@import "base/variables";
+
+*	{
+	font-family: 'Roboto', sans-serif;
+}
+.title {
+	color: #2e2e2e;
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/buttons';
+@import 'blocks/delivery';

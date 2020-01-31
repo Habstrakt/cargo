@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  &_payment {
+    width: 230px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 39px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 576px) {
+  .button {
+    &_payment {
+      margin-top: 20px;
+    }
+  }
+}

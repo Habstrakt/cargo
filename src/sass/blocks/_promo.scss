@@ -1,0 +1,109 @@
+.promo {
+  min-height: 680px;
+  background: url('../../img/bg.jpg') center center / cover no-repeat;
+  padding-bottom: 50px;
+  .header {
+    img {
+      width: 96px;
+      height: 100px;
+    }
+    .navbar {
+      padding: 0;
+      padding-top: 23px;
+    }
+    .nav-link {
+      position: relative;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 400;
+      text-align: center;
+      transition: 0.5s;
+      &:hover {
+        color: #ec644b;
+        text-decoration: underline;
+      }
+    }
+    &__phone {
+      margin-right: 19px;
+    }
+    &__call {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+    }
+    &__number {
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 700;
+    }
+  }
+  &__top-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__title {
+    color: #ec644b;
+    font-family: "Roboto Condensed";
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__subtitle {
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__icon {
+    margin-top: 27px;
+    width: 50px;
+    height: 50px;
+  }
+  &__desc {
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .promo {
+    .header {
+      .nav-link {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .promo {
+    .header {
+      .button {
+        display: none;
+      }
+      .nav-link {
+        font-size: 15px;
+      }
+      &__phone {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    &__top-title {
+      font-size: 18px;
+    }
+  }
+}
