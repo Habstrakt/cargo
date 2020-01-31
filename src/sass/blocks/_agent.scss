@@ -1,0 +1,28 @@
+.agent {
+  height: 342px;
+  background: url('../../img/bg2.jpg') center center / cover no-repeat;
+  padding: 58px 0 75px 0;
+  &__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__text {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
