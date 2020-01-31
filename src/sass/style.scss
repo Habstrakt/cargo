@@ -13,8 +13,18 @@
 	text-align: center;
 }
 
+.divider {
+	width: 148px;
+	height: 1px;
+	background-color: #ec644b;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 17px;
+}
+
+@import 'blocks/buttons';
 @import 'blocks/promo';
 @import 'blocks/advantages';
-@import 'blocks/buttons';
 @import 'blocks/delivery';
 @import 'blocks/agent';
+@import 'blocks/price';
