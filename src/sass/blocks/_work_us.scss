@@ -1,0 +1,19 @@
+.work_us {
+  padding: 51px 0 46px 0;
+  min-height: 454px;
+  background-color: #f3f3f3;
+  &__item {
+    margin-top: 33px;
+  }
+  &__title {
+    color: #ec644b;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+  }
+  &__text {
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

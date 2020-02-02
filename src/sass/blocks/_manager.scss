@@ -1,0 +1,30 @@
+.manager {
+  padding: 58px 0 76px 0;
+  background: url('../../img/bg3.png') center center / cover no-repeat;
+  height: 342px;
+  &__round {
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &__title {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__subtitle {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+  }
+}
