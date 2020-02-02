@@ -1,0 +1,39 @@
+.circle {
+	position: relative;
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+	background: #ffffff;
+	border-radius: 50px;
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		width: 395px;
+    height: 1px;
+    background: #ffffff;
+	}
+	&:before {
+		top: 5px;
+    left: 24px;
+	}
+	&:after {
+		right: 22px;
+    top: 5px;
+	}
+}
+@media (max-width: 991px) {
+	.circle {
+		&:before, &:after {
+			width: 250px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.circle {
+		&:before, &:after {
+			width: 170px;
+		}
+	}
+}
